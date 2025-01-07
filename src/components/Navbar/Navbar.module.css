@@ -1,0 +1,91 @@
+header {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+  padding: 15px 30px;
+}
+
+.navbarBrand {
+  padding-right: 18px;
+  margin-right: 7px;
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+header ul li a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 115%;
+  letter-spacing: -0.015em;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.dropdownItem {
+  color: #0a0a0a !important;
+  text-decoration: none;
+}
+
+.navbarTogglerIcon {
+  filter: invert(1);
+}
+
+header .right {
+  gap: 16px;
+}
+
+header .right .user {
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+  outline: none !important ;
+  padding: 0;
+  border: none !important;
+}
+
+header .right .user span {
+  font-weight: 600;
+  font-size: 13.5px;
+  color: #fff;
+}
+
+header .right .user p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #f9da7e;
+}
+
+.addBalance {
+  padding: 13px 14px !important;
+  gap: 9px;
+  background: #f9da7e !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  line-height: 115% !important;
+  display: flex !important;
+  align-items: center;
+  letter-spacing: -0.015em;
+  color: #121212 !important;
+}
+
+.navbarToggler:focus {
+  box-shadow: 0 0 0.25rem white !important;
+}
+.collapse li a {
+  display: block;
+  padding: 5px 10px;
+}
+
+@media (max-width: 992px) {
+  .navbarBrand {
+    border: none;
+  }
+
+  header {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

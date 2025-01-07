@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&family=Spline+Sans:wght@300..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Spline Sans", serif;
+}
+
+:root {
+  --Mono: "Spline Sans Mono", serif;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 2px;
+}
+.container-header {
+  max-width: 1850px;
+  margin: auto;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 219, 111, 0.8);
+  border-radius: 1px;
+  width: 10px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(208, 241, 241, 0.04);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 1px;
+  height: 2px;
+}
+
+body {
+  background-color: #0a0a0a;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+
+
+h4 {
+  margin-bottom: 0;
+}

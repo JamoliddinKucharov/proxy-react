@@ -1,0 +1,56 @@
+.country {
+  background: rgba(208, 241, 241, 0.04);
+  box-shadow: 0px 24px 24px rgba(0, 0, 0, 0.02);
+  backdrop-filter: blur(12.5px);
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 12px;
+  min-width: 209px !important;
+}
+
+.countries {
+  gap: 8px;
+  width: 100%;
+  overflow-x: scroll;
+  padding-top: 28px;
+  padding-bottom: 15px;
+}
+
+.country h4 {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 115%;
+  letter-spacing: -0.015em;
+  color: #fff;
+}
+
+.country .flag {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+  gap: 2.5px;
+}
+
+.country p {
+  font-family: var(--Mono);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 115%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.country .rightCountry {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.country .rightCountry p {
+  font-size: 12px;
+}
+
+.country .rightCountry h4 {
+  font-weight: 600;
+}
